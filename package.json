@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "firebase": "latest",
+    "firebase": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -12,8 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "browserlist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version"]
+  "engines": {
+    "node": "18.x"
   }
 }
